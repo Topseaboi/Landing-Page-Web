@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    size: 60px;
+}
+body{
+
+    background-image: url(bg-hero-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    background-image: url(bg-hero-desktop.svg);
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding:16px;
+}
+.right{
+    margin-left: auto;
+}
+.try{
+    width: 150px;
+    height: 40px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 1px rgb(29, 28, 28);
+}
+main .first-page{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    align-content: center;
+    align-items: center;
+}
+main div{
+    padding: 30px;
+
+}
+.first-page div{
+    margin: 30px;
+}
+main .first-page .cont-one {
+padding: 0px 50px;
+width: 50vw;
+}
+main h1{
+    font-family: "gill sans";
+}
+main p{
+    font-family:'Lucida Grande';
+    font-size: 18px;
+    line-height: 1.85;
+    padding: 10px 0;
+}
+
+ div .svg-size{
+    width: 20px;
+    height: 20px;
+}
+main .first-page .purple-button{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(201, 60, 201);
+    color: aliceblue;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+main .first-page button:hover{
+    background-color: rgb(218, 118, 218);
+}
+main .all-box-text{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    align-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px rgb(219, 204, 204);
+    border-style: none;
+    border-radius: 10px;
+}
+
+main .overlay{
+    position:relative;
+    width: 400px;
+    align-items: center;
+    padding: 70px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 20px;margin: auto; height: 20vh;
+    box-shadow: 1px 1px 2px 1px rgb(124, 119, 119);
+}
+.overlay button{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(201, 60, 201);
+    color: aliceblue;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+.overlay button:hover{
+    background-color: rgb(218, 118, 218);
+}
+main .four-footer-col{
+    background-color: rgb(5, 14, 24);
+    display: flex;
+    padding: 70px;
+    align-content: center;
+    align-items: center;
+}
+main .four-footer-col p{
+    color: white;
+}
+main .four-footer-col a{
+    color: white;
+    padding: 7px;
+}
+main .four-footer-col i{
+    color: white;
+    padding: 20px;
+    padding: 7px;
+}
+@media screen and (max-width:375px) {
+    main .h1{
+        font-size: 30px;
+        color: blue;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    body{
+
+        background-image: url(bg-hero-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    main .all-box-text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 30px;
+        align-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 5px 1px rgb(219, 204, 204);
+        border-style: none;
+        border-radius: 10px;
+
+    }
+    main .all-box-text img{
+        width: 300px;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+    main .first-page{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: auto;
+        align-content: center;
+        align-items: center;
+    }
+    main .first-page .purple-button{
+        margin: 10px 0px;
+    }
+    main .four-footer-col{
+        background-color: rgb(5, 14, 24);
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    main .four-footer-col p{
+        color: white;
+        line-height: 2.01;
+        font-style: normal;
+    }
+}
